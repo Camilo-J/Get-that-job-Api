@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  followable: one
+  followable_type: Followable
+
+two:
+  followable: two
+  followable_type: Followable
