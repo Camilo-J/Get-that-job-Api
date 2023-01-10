@@ -5,5 +5,5 @@ class UserSerializer < ActiveModel::Serializer
 end
 
 def user_cv
-  object.curriculum.service_url
+  curriculum.service_url
 end

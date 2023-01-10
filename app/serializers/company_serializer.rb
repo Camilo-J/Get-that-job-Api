@@ -5,5 +5,5 @@ class CompanySerializer < ActiveModel::Serializer
 end
 
 def profile_image
-  object.profile.service_url
+  profile.service_url
 end
