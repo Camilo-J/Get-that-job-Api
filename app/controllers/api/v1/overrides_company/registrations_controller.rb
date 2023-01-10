@@ -16,9 +16,9 @@ module Api
 
         def configure_permitted_parameters
           devise_parameter_sanitizer.permit(:sign_up,
-                                            keys: %i[description name website email])
+                                            keys: %i[description name website email profile])
           devise_parameter_sanitizer.permit(:account_update,
-                                            keys: %i[description name website email])
+                                            keys: %i[description name website email profile])
         end
       end
     end

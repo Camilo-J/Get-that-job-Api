@@ -12,4 +12,5 @@ class Company < ApplicationRecord
   # Associations
   has_many :followings, as: :followable, dependent: :destroy
   has_many :jobs
+  has_one_attached :profile
 end

@@ -13,4 +13,5 @@ class User < ApplicationRecord
   validates :linkedin, format: URI::DEFAULT_PARSER.make_regexp(%w[http https]), allow_blank: true
   # Associations
   has_many :followings, dependent: :destroy
+  has_one_attached :curriculum
 end

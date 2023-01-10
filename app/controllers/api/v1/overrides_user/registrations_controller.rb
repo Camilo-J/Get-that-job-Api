@@ -15,20 +15,13 @@ module Api
 
         def configure_permitted_parameters
           devise_parameter_sanitizer.permit(:sign_up,
-                                            keys: %i[phone name birthdate linkedin title email experience education])
+                                            keys: %i[phone name birthdate linkedin title email experience education
+                                                     curriculum])
           devise_parameter_sanitizer.permit(:account_update,
-                                            keys: %i[phone name birthdate linkedin title email experience education])
+                                            keys: %i[phone name birthdate linkedin title email experience education
+                                                     curriculum])
         end
       end
     end
   end
 end
-
-# t.integer 'phone'
-# t.date 'birthdate'
-# t.string 'linkedin'
-# t.string 'title'
-# t.text 'experience'
-# t.text 'education'
-# t.string 'email'
-# t.string 'name'
