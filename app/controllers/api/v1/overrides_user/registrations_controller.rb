@@ -2,7 +2,7 @@
 
 module Api
   module V1
-    module Overrides
+    module OverridesUser
       # RegistrationsController api
       class RegistrationsController < ::DeviseTokenAuth::RegistrationsController
         before_action :configure_permitted_parameters

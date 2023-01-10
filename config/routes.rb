@@ -3,17 +3,18 @@ Rails.application.routes.draw do  # Define your application routes per the DSL i
   # root "articles#index"
   namespace :api do
     namespace :v1 do
-      mount_devise_token_auth_for 'User', at: 'auth', controllers: {
-        sessions: 'api/v1/overrides/sessions',
-        registrations: 'api/v1/overrides/registrations'
+      mount_devise_token_auth_for 'User', at: 'user', controllers: {
+        sessions: 'api/v1/overrides_user/sessions',
+        registrations: 'api/v1/overrides_user/registrations'
       }
 
-      mount_devise_token_auth_for 'Company', at: 'company_auth', controllers: {
-        sessions: 'api/v1/overrides2/sessions',
-        registrations: 'api/v1/overrides2/registrations'
+      mount_devise_token_auth_for 'Company', at: 'company', controllers: {
+        sessions: 'api/v1/overrides_company/sessions',
+        registrations: 'api/v1/overrides_company/registrations'
       }
     end
   end
+
   resources :companies, except: %i[new edit] do
     resources :followings, except: %i[new edit]
   end
