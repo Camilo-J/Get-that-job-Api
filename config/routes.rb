@@ -7,6 +7,11 @@ Rails.application.routes.draw do  # Define your application routes per the DSL i
         sessions: 'api/v1/overrides/sessions',
         registrations: 'api/v1/overrides/registrations'
       }
+
+      mount_devise_token_auth_for 'Company', at: 'company_auth', controllers: {
+        sessions: 'api/v1/overrides2/sessions',
+        registrations: 'api/v1/overrides2/registrations'
+      }
     end
   end
   resources :companies, except: %i[new edit] do
