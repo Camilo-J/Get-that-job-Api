@@ -12,15 +12,17 @@ Rails.application.routes.draw do  # Define your application routes per the DSL i
         sessions: 'api/v1/overrides_company/sessions',
         registrations: 'api/v1/overrides_company/registrations'
       }
-    end
-  end
 
-  resources :companies, except: %i[new edit] do
-    resources :followings, except: %i[new edit]
-  end
-  # POST /companies/:company_id/critics
-  # POST /games/:game_id/critics
-  resources :jobs, except: %i[new edit] do
-    resources :followings, except: %i[new edit]
+      resources :companies, except: %i[new edit] do
+        resources :followings, except: %i[new edit]
+      end
+      # POST /companies/:company_id/followings
+      # POST /jobs/:job_id/followings
+      resources :jobs, except: %i[new edit] do
+        resources :followings, except: %i[new edit]
+      end
+
+      resources :applications_jobs
+    end
   end
 end
