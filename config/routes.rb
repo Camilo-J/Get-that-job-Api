@@ -1,11 +1,14 @@
-Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
+Rails.application.routes.draw do  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   # Defines the root path route ("/")
   # root "articles#index"
-  # resources :jobs, except: %i[new]
-  # resources :followings, except: %i[index delete]
-
+  namespace :api do
+    namespace :v1 do
+      mount_devise_token_auth_for 'User', at: 'auth', controllers: {
+        sessions: 'api/v1/overrides/sessions',
+        registrations: 'api/v1/overrides/registrations'
+      }
+    end
+  end
   resources :companies, except: %i[new edit] do
     resources :followings, except: %i[new edit]
   end
