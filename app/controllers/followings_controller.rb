@@ -1,22 +1,21 @@
+# frozen_string_literal: true
+
+# FollowingsController api
 class FollowingsController < ApplicationController
+  skip_before_action :authenticate_api_v1_company!
   def index
     @followings = Following.all
 
     render json:  @followings
   end
 
-  # POST /games
+  # POST /followings
   def create
     if params[:company_id] # 1
-
-      puts params[:company_id]
       company = Company.find(params[:company_id])
       following = company.followings.new(following_params)
     else
       job = Job.find(params[:job_id])
-
-      puts params[:following]
-
       following = job.followings.new(following_params)
     end
 
@@ -39,13 +38,15 @@ class FollowingsController < ApplicationController
     end
   end
 
-  # DELETE /games/:id
+  # DELETE /followings/:id
   def destroy
     following = Following.find(params[:id])
     following.destroy
 
     render json: nil, status: :no_content
   end
+
+private
 
   def following_params
     params.require(:following).permit(:user_id)

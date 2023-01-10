@@ -1,13 +1,19 @@
+# frozen_string_literal: true
+
+# JobsController
 class JobsController < ApplicationController
+  skip_before_action :authenticate_api_v1_user!
+
   def index
-    @jobs = Job.where(company_id: 1)
+    @jobs = Job.all
 
     render json: @jobs
   end
 
-  # POST /games
+  # POST /jobs
   def create
     job = Job.new(job_params)
+    job.company_id = current_api_v1_company.id
 
     if job.save
       render json: job, status: :created
@@ -28,7 +34,7 @@ class JobsController < ApplicationController
     end
   end
 
-  # DELETE /games/:id
+  # DELETE /jobs/:id
   def destroy
     job = Job.find(params[:id])
     job.destroy
