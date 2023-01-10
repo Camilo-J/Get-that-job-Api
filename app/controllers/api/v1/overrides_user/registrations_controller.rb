@@ -7,6 +7,7 @@ module Api
       class RegistrationsController < ::DeviseTokenAuth::RegistrationsController
         before_action :configure_permitted_parameters
         skip_before_action :authenticate_api_v1_user!
+        skip_before_action :authenticate_api_v1_company!
         # override this method to customise how the resource is rendered. in this case an ActiveModelSerializers 0.10 serializer.
         def render_create_success
           render json: { data: ActiveModelSerializers::SerializableResource.new(@resource).as_json }
