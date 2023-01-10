@@ -37,6 +37,6 @@ class ApplicationsJobsController < ApplicationController
   private
 
   def apply_params
-    params.require(:application_job).permit(:user_id, :job_id)
+    params.require(:applications_job).permit(:user_id, :job_id)
   end
 end

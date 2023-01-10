@@ -4,7 +4,7 @@ class CreateJobs < ActiveRecord::Migration[7.0]
       t.string :name
       t.text :description
       t.string :category
-      t.string :type
+      t.string :type_job
       t.float :min_salary
       t.float :max_salary
       t.text :requirements
