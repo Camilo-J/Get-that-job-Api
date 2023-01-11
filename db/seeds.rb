@@ -36,3 +36,63 @@
 
 # following_company = Following.new(user_id: user.id)
 # following_company.followable = company
+
+require "json"
+
+users_data = JSON.parse(File.read("db/data/users.json"))
+companies_data = JSON.parse(File.read("db/data/companies.json"))
+# jobs_data = JSON.parse(File.read("db/data/jobs.json"))
+
+puts "Start seeding"
+User.destroy_all
+Company.destroy_all
+Job.destroy_all
+
+# User.find_or_create_by(username: "user_test") do |user|
+#     user.email = "user@test.com"
+#     user.birth_date = "1990-01-01"
+#     user.first_name = "User"
+#     user.last_name = "Test"
+#     user.password = "qwerty"
+#     user.password_confirmation = "qwerty"
+#   end
+  
+	puts "Seeding users"
+	users_data.each do |professional_data|
+		new_professional = User.new(professional_data)
+		puts "Professional not created. Errors: #{new_professional.errors.full_messages}" unless new_professional.save
+	end
+
+	puts "Seeding companies and jobs"
+	# companies_data.each do |company_data|
+	# 	new_company = Company.new(company_data)
+	# 	puts "Company not created. Errors: #{new_company.errors.full_messages}" unless new_company.save
+	# end
+  
+  main_companies_data = companies_data.select {|company| company["jobs"].nil? }
+  
+  main_companies_data.each do |company|
+    company_data = company.slice("name", "description", "email", "website")
+    new_company = Company.new(company_data)
+    puts "Company not created. Errors: #{new_company.errors.full_messages}" unless new_company.save
+  
+    company["jobs"].each do |job_data|
+      # job = Company.find_by(name: involved_company_data["name"])
+  
+      new_job = Job.new(company: new_company,
+												name: job_data["name"], 
+												description: job_data["description"], 
+												category: job_data["category"],
+												type_job: job_data["type_job"],
+												min_salary: job_data["min_salary"],
+												max_salary: job_data["max_salary"],
+												requirements: job_data["requirements"],
+												optional_requirements: job_data["optional_requirements"],
+												state: job_data["state"],
+											)
+      puts "Job not created. Errors: #{new_job.errors.full_messages}" unless new_job.save
+    end
+  end
+
+	puts "End seeding"
+   

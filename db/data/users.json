@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Cesar",
+      "phone": "984000001",
+      "birthdate": "1990-01-01",
+      "linkedin": "https://www.linkedin.com",
+      "title": "Programmer fullstack",
+      "experience": "Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#",
+      "education": "Universidad Nacional Federico Villarreal",
+      "email": "cesar@gmail.com"
+    },
+    {
+			"name": "Elisabeth",
+			"phone": "984000002",
+			"birthdate": "1990-01-02",
+			"linkedin": "https://www.linkedin.com",
+			"title": "Programmer back end",
+			"experience": "Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist",
+			"education": "Universidad Nacional Federico Villarreal",
+			"email": "cesar@gmail.com"
+    },
+    {
+			"name": "Marco",
+			"phone": "984000003",
+			"birthdate": "1990-01-03",
+			"linkedin": "https://www.linkedin.com",
+			"title": "Programmer fullstack",
+			"experience": "Soluciones Orión, Integrador de soluciones, devops, programmer in c#",
+			"education": "Universidad Nacional Federico Villarreal",
+			"email": "cesar@gmail.com"
+    }
+]
