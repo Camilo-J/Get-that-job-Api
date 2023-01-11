@@ -9,6 +9,7 @@ class CreateJobs < ActiveRecord::Migration[7.0]
       t.float :max_salary
       t.text :requirements
       t.text :optional_requirements
+      t.integer :state, default: 0, null: false
       t.references :company, null: false, foreign_key: true
 
       t.timestamps
