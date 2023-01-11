@@ -5,9 +5,10 @@
       "birthdate": "1990-01-01",
       "linkedin": "https://www.linkedin.com",
       "title": "Programmer fullstack",
-      "experience": "Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#",
-      "education": "Universidad Nacional Federico Villarreal",
-      "email": "cesar@gmail.com"
+      "experience": "Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#",
+      "education": "Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal",
+      "email": "cesar@gmail.com",
+			"password": "123456"
     },
     {
 			"name": "Elisabeth",
@@ -15,9 +16,10 @@
 			"birthdate": "1990-01-02",
 			"linkedin": "https://www.linkedin.com",
 			"title": "Programmer back end",
-			"experience": "Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist",
-			"education": "Universidad Nacional Federico Villarreal",
-			"email": "cesar@gmail.com"
+			"experience": "Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist ",
+			"education": "Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal",
+			"email": "elisabeth@gmail.com",
+			"password": "123456"
     },
     {
 			"name": "Marco",
@@ -25,8 +27,9 @@
 			"birthdate": "1990-01-03",
 			"linkedin": "https://www.linkedin.com",
 			"title": "Programmer fullstack",
-			"experience": "Soluciones Orión, Integrador de soluciones, devops, programmer in c#",
-			"education": "Universidad Nacional Federico Villarreal",
-			"email": "cesar@gmail.com"
+			"experience": "Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#",
+			"education": "Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal",
+			"email": "marco@gmail.com",
+			"password": "123456"
     }
 ]
