@@ -1,90 +1,128 @@
 [
-    {
-      "name": "Nintendo",
-      "description": "Nintendo Co., Ltd. is a multinational corporation located in Kyoto, Japan. Founded on September 23, 1889 by Fusajiro Yamauchi, it produced handmade hanafuda cards. By 1963, the company had tried several small niche businesses, such as a cab company and a love hotel. \n \nNintendo developed into a video game company, becoming one of the most influential in the industry and Japan's third most valuable listed company, with a market value of over US$85 billion. \n \nBesides video games, Nintendo is also the majority owner of the Seattle Mariners, a Major League Baseball team in Seattle, Washington. \n \nAccording to Nintendo's Touch! Generations website, the name \"Nintendo\" translated from Japanese to English means \"Leave luck to Heaven\".",
-      "email": "rrhh@nintendo.com",
-      "website": "https:/www.nintendo.com",
-      "jobs": [
-				{
-					"name": "European Legal Advisor or European Legal Professional",
-					"description": "Provide autonomous legal advice to the company on all aspects of the law with a focus on Data Protection Law, Provide legal advice and trainings to different stakeholders within Nintendo of Europe, Nintendo of Japan and European local markets on data protection within the European region, Draft and review letters, contracts and other data protection- or commercial law-related documents for the European region, Collaborate with and guide the Data Protection Administrator in the team, Representation of Nintendo in data protection working groups of European video games trade associations ",
-					"category": "Manufactoring",
-					"type_job": "Full Time",
-					"min_salary": 1000,
-					"max_salary": 2500,
-					"requirements": "German law degree or law degree of another European country, Several years of post-qualification experience in a law firm or as an in-house lawyer, Excellent knowledge of European data protection law, civil law, and IT laws, Strong academics, excellent negotiation and drafting skills ",
-					"optional_requirements": "English language",
-					"state": 0
-				},
-				{
-					"name": "European Operations Administrator",
-					"description": "Transport organisation for the European eCommerce shipments,Transport claims handling for all three warehouse locations, Freight invoice matching, Close collaboration with our warehouses and carriers as well as other internal Nintendo departments, General administration tasks in the area of shipping, such as freight/cost comparisons, reportings etc.",
-					"category": "Manufactoring",
-					"type_job": "Full Time",
-					"min_salary": 1500,
-					"max_salary": 3000,
-					"requirements": "Several years of professional experience in the area of parcel shipping, ideally B2C, Excellent written and spoken English and German skills, Very good MS Office skills (especially Excel), A precise, well-structured, responsible approach to work and the ability to work well with a team, SAP knowledge would be a plus",
-					"optional_requirements": "German language",
-					"state": 0
-				},
-				{
-					"name": "HR Business Partner",
-					"description": "Consultation and strategic support of the executives and managers in the area of responsibility including European entities on various HR matters and processes (incl. personnel planning, advising on labour law topics, strategic consultation in organisational matters) along the employment life-cycle, Provide input for HR measures as well as help to implement the business strategy from a people perspective, Recruitment of manager, team lead as well as specialist positions and negotiation of employment contracts, Working together with the works council in various matters, Project work and working on European HR guiding principles and guidelines ensuring HR policies and procedures fit the company needs",
-					"category": "Manufactoring",
-					"type_job": "Full Time",
-					"min_salary": 1000,
-					"max_salary": 2500,
-					"requirements": "University degree in business administration with a focus in HR or equivalent education and relevant work experience, Several years of work experience in a HR Consultant / Business Partner role, Preferably experience in business partnering for other European entities, Experience with working on and driving HR projects and initiatives, Experience in working together with a works council and good knowledge in labour law",
-					"optional_requirements": "English language",
-					"state": 0
-				}
-      ]
-    },
-    {
-      "name": "Nintendo EAD",
-      "description": "Nintendo Entertainment Analysis & Development or Nintendo EAD, formerly Nintendo Research & Development 4, or Nintendo R&D4, was the largest division inside Nintendo until it merged with Nintendo Software Planning & Development in September 2015, becoming Nintendo Entertainment Planning & Development. It was preceded by the Creative Department (クリエイティブ課 Kurieitibu Ka?), a team of designers with backgrounds in art responsible for many different tasks, to which Shigeru Miyamoto and Takashi Tezuka originally belonged. Both served as managers of the EAD studios and were credited in every game developed by the division, with varying degrees of involvement. Nintendo EAD was best known for its work on games in the Donkey Kong, Mario, The Legend of Zelda, F-Zero, Star Fox, Pikmin, and Animal Crossing series.",
-      "email": "rrhh@nintendoead.com",
-      "website": "https:/www.nintendoead.com",
-			"jobs": [
-				{
-					"name": "HR Services Specialist",
-					"description": "Point of contact for all general employee inquiry’s and conducting all operational HR processes in the employee lifecycle, Creating and handling of employee documents (e.g. employment contracts, certifications and reference letters), Close collaboration with the HR Business Partners and all other HR areas, Maintaining HR employee master data from entry to exit in the respective HR system SAP, Handling of the complete recruitment process as well as onboarding and providing first day orientation to new employees",
-					"category": "Manufactoring",
-					"type_job": "Part Time",
-					"min_salary": 2500,
-					"max_salary": 4500,
-					"requirements": "Education or studies in the field of HR or relevant working experience, Experience in handling HR related administrative tasks, First experiences with recruitment processes, Very good knowledge of MS Office as well as SAP HCM (PA, PB, PT, Efile), Very good German and English skills",
-					"optional_requirements": "English language",
-					"state": 0
-				},
-				{
-					"name": "(Junior) Analyst",
-					"description": "Analyse data in the digital business area to report on the performance of digital sales and subscriptions and to understand the behaviour of current and prospective customers, Develop solutions that can make this process more efficient, flexible, comprehensive and future proof, Work with key stakeholders to understand analytics requirements and reporting needs in the digital business area, Create actionable reports and dashboards that deliver business performance and user behaviour analytics, by making sense of large amounts of (big) data from various channels (e.g. digital sales, device usage, CRM programme, subscriptions etc.)",
-					"category": "Manufactoring",
-					"type_job": "Part Time",
-					"min_salary": 2500,
-					"max_salary": 4500,
-					"requirements": "Degree-level education in Business, Business Informatics, Statistics or Mathematics, Interest in digital business analyses (e.g. digital sales, subscription services, CRM, consumer journey), Profound knowledge of Excel and SQL, Experience with reporting and BI tools e.g. Tableau, Experience with databases (e.g. AWS, BigQuery) and Google Analytics would be beneficial",
-					"optional_requirements": "English language",
-					"state": 0
-				},
-				{
-					"name": "(Junior) Cloud Network Specialist",
-					"description": "Planning and designing the network infrastructure based on industry standards and best practices considering IT security and architectural requirements (Hybrid Cloud), Responsibility for the cloud based network infrastructure landscape, including operational and strategical aspects, Strategic development, definition and provisioning of security- and network-related services, Developing efficient automation and continuous optimisation of the technical process flows, Continuous monitoring and troubleshooting of the IT network infrastructure and services, Managing network related projects",
-					"category": "Manufactoring",
-					"type_job": "Part Time",
-					"min_salary": 2500,
-					"max_salary": 4500,
-					"requirements": "Degree in IT related fields or equivalent professional experience, Advanced knowledge of modern enterprise network architectures, technology and infrastructure in data centers and cloud ecosystems, Experience of software defined networking (SDN), network security and firewall concepts, Experienced in automation, infrastructure as code (IaC), cloud-related common programming, scripting and code development",
-					"optional_requirements": "English language",
-					"state": 0
-				}
-			]
-    },
-    {
-      "name": "Sony Interactive Entertainment",
-      "description": "Formerly: Sony Computer Entertainment\nFormerly: Sony Network Entertainment",
-      "email": "rrhh@sony.com",
-      "website": "https:/www.sony.com"
-    }
+	{
+		"name": "Nintendo",
+		"description": "Nintendo Co., Ltd. is a multinational corporation located in Kyoto, Japan. Founded on September 23, 1889 by Fusajiro Yamauchi, it produced handmade hanafuda cards. By 1963, the company had tried several small niche businesses, such as a cab company and a love hotel. \n \nNintendo developed into a video game company, becoming one of the most influential in the industry and Japan's third most valuable listed company, with a market value of over US$85 billion. \n \nBesides video games, Nintendo is also the majority owner of the Seattle Mariners, a Major League Baseball team in Seattle, Washington. \n \nAccording to Nintendo's Touch! Generations website, the name \"Nintendo\" translated from Japanese to English means \"Leave luck to Heaven\".",
+		"email": "rrhh@nintendo.com",
+		"website": "https:/www.nintendo.com",
+		"password": "123456",
+		"jobs": [
+			{
+				"name": "European Legal Advisor or European Legal Professional",
+				"description": "Provide autonomous legal advice to the company on all aspects of the law with a focus on Data Protection Law, Provide legal advice and trainings to different stakeholders within Nintendo of Europe, Nintendo of Japan and European local markets on data protection within the European region, Draft and review letters, contracts and other data protection- or commercial law-related documents for the European region, Collaborate with and guide the Data Protection Administrator in the team, Representation of Nintendo in data protection working groups of European video games trade associations ",
+				"category": "Manufactoring",
+				"type_job": "Full Time",
+				"min_salary": 1000,
+				"max_salary": 2500,
+				"requirements": "German law degree or law degree of another European country, Several years of post-qualification experience in a law firm or as an in-house lawyer, Excellent knowledge of European data protection law, civil law, and IT laws, Strong academics, excellent negotiation and drafting skills ",
+				"optional_requirements": "English language, German law degree or law degree of another European country, Several years of post-qualification experience in a law firm or as an in-house lawyer, Excellent knowledge of European data protection law, civil law, and IT laws, Strong academics, excellent negotiation and drafting skills",
+				"state": 0
+			},
+			{
+				"name": "European Operations Administrator",
+				"description": "Transport organisation for the European eCommerce shipments,Transport claims handling for all three warehouse locations, Freight invoice matching, Close collaboration with our warehouses and carriers as well as other internal Nintendo departments, General administration tasks in the area of shipping, such as freight/cost comparisons, reportings etc.",
+				"category": "Manufactoring",
+				"type_job": "Full Time",
+				"min_salary": 1500,
+				"max_salary": 3000,
+				"requirements": "Several years of professional experience in the area of parcel shipping, ideally B2C, Excellent written and spoken English and German skills, Very good MS Office skills (especially Excel), A precise, well-structured, responsible approach to work and the ability to work well with a team, SAP knowledge would be a plus",
+				"optional_requirements": "German language, Several years of professional experience in the area of parcel shipping, ideally B2C, Excellent written and spoken English and German skills, Very good MS Office skills (especially Excel), A precise, well-structured, responsible approach to work and the ability to work well with a team, SAP knowledge would be a plus",
+				"state": 0
+			},
+			{
+				"name": "HR Business Partner",
+				"description": "Consultation and strategic support of the executives and managers in the area of responsibility including European entities on various HR matters and processes (incl. personnel planning, advising on labour law topics, strategic consultation in organisational matters) along the employment life-cycle, Provide input for HR measures as well as help to implement the business strategy from a people perspective, Recruitment of manager, team lead as well as specialist positions and negotiation of employment contracts, Working together with the works council in various matters, Project work and working on European HR guiding principles and guidelines ensuring HR policies and procedures fit the company needs",
+				"category": "Manufactoring",
+				"type_job": "Full Time",
+				"min_salary": 1000,
+				"max_salary": 2500,
+				"requirements": "University degree in business administration with a focus in HR or equivalent education and relevant work experience, Several years of work experience in a HR Consultant / Business Partner role, Preferably experience in business partnering for other European entities, Experience with working on and driving HR projects and initiatives, Experience in working together with a works council and good knowledge in labour law",
+				"optional_requirements": "English language, University degree in business administration with a focus in HR or equivalent education and relevant work experience, Several years of work experience in a HR Consultant / Business Partner role, Preferably experience in business partnering for other European entities, Experience with working on and driving HR projects and initiatives, Experience in working together with a works council and good knowledge in labour law",
+				"state": 0
+			}
+		]
+	},
+	{
+		"name": "Nintendo EAD",
+		"description": "Nintendo Entertainment Analysis & Development or Nintendo EAD, formerly Nintendo Research & Development 4, or Nintendo R&D4, was the largest division inside Nintendo until it merged with Nintendo Software Planning & Development in September 2015, becoming Nintendo Entertainment Planning & Development. It was preceded by the Creative Department (クリエイティブ課 Kurieitibu Ka?), a team of designers with backgrounds in art responsible for many different tasks, to which Shigeru Miyamoto and Takashi Tezuka originally belonged. Both served as managers of the EAD studios and were credited in every game developed by the division, with varying degrees of involvement. Nintendo EAD was best known for its work on games in the Donkey Kong, Mario, The Legend of Zelda, F-Zero, Star Fox, Pikmin, and Animal Crossing series.",
+		"email": "rrhh@nintendoead.com",
+		"website": "https:/www.nintendoead.com",
+		"password": "123456",
+		"jobs": [
+			{
+				"name": "HR Services Specialist",
+				"description": "Point of contact for all general employee inquiry’s and conducting all operational HR processes in the employee lifecycle, Creating and handling of employee documents (e.g. employment contracts, certifications and reference letters), Close collaboration with the HR Business Partners and all other HR areas, Maintaining HR employee master data from entry to exit in the respective HR system SAP, Handling of the complete recruitment process as well as onboarding and providing first day orientation to new employees",
+				"category": "Manufactoring",
+				"type_job": "Part Time",
+				"min_salary": 2500,
+				"max_salary": 4500,
+				"requirements": "Education or studies in the field of HR or relevant working experience, Experience in handling HR related administrative tasks, First experiences with recruitment processes, Very good knowledge of MS Office as well as SAP HCM (PA, PB, PT, Efile), Very good German and English skills",
+				"optional_requirements": "English language, Education or studies in the field of HR or relevant working experience, Experience in handling HR related administrative tasks, First experiences with recruitment processes, Very good knowledge of MS Office as well as SAP HCM (PA, PB, PT, Efile), Very good German and English skills",
+				"state": 0
+			},
+			{
+				"name": "(Junior) Analyst",
+				"description": "Analyse data in the digital business area to report on the performance of digital sales and subscriptions and to understand the behaviour of current and prospective customers, Develop solutions that can make this process more efficient, flexible, comprehensive and future proof, Work with key stakeholders to understand analytics requirements and reporting needs in the digital business area, Create actionable reports and dashboards that deliver business performance and user behaviour analytics, by making sense of large amounts of (big) data from various channels (e.g. digital sales, device usage, CRM programme, subscriptions etc.)",
+				"category": "Manufactoring",
+				"type_job": "Part Time",
+				"min_salary": 2500,
+				"max_salary": 4500,
+				"requirements": "Degree-level education in Business, Business Informatics, Statistics or Mathematics, Interest in digital business analyses (e.g. digital sales, subscription services, CRM, consumer journey), Profound knowledge of Excel and SQL, Experience with reporting and BI tools e.g. Tableau, Experience with databases (e.g. AWS, BigQuery) and Google Analytics would be beneficial",
+				"optional_requirements": "English language, Degree-level education in Business, Business Informatics, Statistics or Mathematics, Interest in digital business analyses (e.g. digital sales, subscription services, CRM, consumer journey), Profound knowledge of Excel and SQL, Experience with reporting and BI tools e.g. Tableau, Experience with databases (e.g. AWS, BigQuery) and Google Analytics would be beneficial",
+				"state": 0
+			},
+			{
+				"name": "(Junior) Cloud Network Specialist",
+				"description": "Planning and designing the network infrastructure based on industry standards and best practices considering IT security and architectural requirements (Hybrid Cloud), Responsibility for the cloud based network infrastructure landscape, including operational and strategical aspects, Strategic development, definition and provisioning of security- and network-related services, Developing efficient automation and continuous optimisation of the technical process flows, Continuous monitoring and troubleshooting of the IT network infrastructure and services, Managing network related projects",
+				"category": "Manufactoring",
+				"type_job": "Part Time",
+				"min_salary": 2500,
+				"max_salary": 4500,
+				"requirements": "Degree in IT related fields or equivalent professional experience, Advanced knowledge of modern enterprise network architectures, technology and infrastructure in data centers and cloud ecosystems, Experience of software defined networking (SDN), network security and firewall concepts, Experienced in automation, infrastructure as code (IaC), cloud-related common programming, scripting and code development",
+				"optional_requirements": "English language, Degree in IT related fields or equivalent professional experience, Advanced knowledge of modern enterprise network architectures, technology and infrastructure in data centers and cloud ecosystems, Experience of software defined networking (SDN), network security and firewall concepts, Experienced in automation, infrastructure as code (IaC), cloud-related common programming, scripting and code development",
+				"state": 0
+			}
+		]
+	},
+	{
+		"name": "Sony Interactive Entertainment",
+		"description": "Formerly: Sony Computer Entertainment\nFormerly: Sony Network Entertainment, Formerly: Sony Computer Entertainment\nFormerly: Sony Network Entertainment, Formerly: Sony Computer Entertainment\nFormerly: Sony Network Entertainment, Formerly: Sony Computer Entertainment\nFormerly: Sony Network Entertainment, Formerly: Sony Computer Entertainment\nFormerly: Sony Network Entertainment",
+		"email": "rrhh@sony.com",
+		"website": "https:/www.sony.com",
+		"password": "123456",
+		"jobs": [
+			{
+				"name": "MANAGER, SALES PLANNING & OPERATIONS",
+				"description": "Based in our Mumbai office and reporting to the Vice President of TV Distribution for India with functional reporting to the Director of Sales Planning and Operations for APAC, the Sales Planningand Operations Manager is an experienced, detailed and process oriented professional able to oversee the development, implementation, execution, and ongoing fine-tuning of varied aspects of the sales process including product planning, strategizing, contracting, data entry, reporting, and more. This is a great opportunity for an experienced, motivated, and responsible candidate to join an innovative environment, where your creativity and initiatives will be highly valued!",
+				"category": "Manufactoring",
+				"type_job": "Part Time",
+				"min_salary": 2800,
+				"max_salary": 4800,
+				"requirements": "Post Graduate Degree holder in Finance, Accounting, Information Systems or Technology or Business Administration/Management, related disciplines. \n , Typically 5+ years in a capacity in any of the following fields – accounting, finance, auditing, information systems, sales operations, or business administration or equivalent. \n , Knowledge of information systems management, business or sales administration, TV content rights management, and budgeting principles. \n , A strong, aggressive, and passionate drive to lead and achieve results, and create an environment focused on ongoing improvements in processes, system efficiency and accuracy \n , Expertise in handling, analyzing, and interpreting large samples of data in a logical and accurate manner  \n , Strong strategic and analytical mind-set and focus with the ability to work in teams and under pressure and tight deadlines \n , Excellent computer skills: Excel (Pivot Tables, Macros, etc.), Word and PowerPoint \n , High proficiency in English and excellent written communication skills \n , Experience, exposure or understanding of media/US entertainment industry with a particular focus on programming sales, distribution, and the social media landscape in India or Asia Pacific",
+				"optional_requirements": "English language, Education or studies in the field of HR or relevant working experience, Experience in handling HR related administrative tasks, First experiences with recruitment processes, Very good knowledge of MS Office as well as SAP HCM (PA, PB, PT, Efile), Very good German and English skills",
+				"state": 0
+			},
+			{
+				"name": "MANAGER, DIGITAL MARKETING",
+				"description": "The SPE India theatrical marketing team are responsible for the planning, development and implementation of the marketing campaigns for Sony Pictures Films. The department covers all marketing areas including advertising, publicity and promotions. This is an exciting role that will work to develop and implement digital marketing campaigns in line with the overall agreed marketing campaign.  This covers both online and wireless (mobile) activity.",
+				"category": "Manufactoring",
+				"type_job": "Part Time",
+				"min_salary": 2500,
+				"max_salary": 4500,
+				"requirements": "Minimum degree in business administration or relevant disciplines \n , Typically 7 years’ experience in Internet/Digital marketing.  Experience in film/entertainment is a plus. \n , Excellent fluent English – both written and oral skills (level: advanced/proficient) \n , Digital basic technical knowledge and advanced knowledge of the Indian Internet marketplace, wih experience in running web banner advertising campaigns, social media, blogging/ PR campaigns, etc. \n , Media industry knowledge especially in the digital marketing space preferred. \n , Well-organized with a good attention to detail and able to multi-task. \n , Friendly and outgoing, excellent interpersonal communication, a team player and able to get on well with people. \n , Enthusiastic, proactive and keen to learn.",
+				"optional_requirements": "English language, Degree-level education in Business, Business Informatics, Statistics or Mathematics, Interest in digital business analyses (e.g. digital sales, subscription services, CRM, consumer journey), Profound knowledge of Excel and SQL, Experience with reporting and BI tools e.g. Tableau, Experience with databases (e.g. AWS, BigQuery) and Google Analytics would be beneficial",
+				"state": 0
+			},
+			{
+				"name": "(Junior) Cloud Network Specialist",
+				"description": "Planning and designing the network infrastructure based on industry standards and best practices considering IT security and architectural requirements (Hybrid Cloud), Responsibility for the cloud based network infrastructure landscape, including operational and strategical aspects, Strategic development, definition and provisioning of security- and network-related services, Developing efficient automation and continuous optimisation of the technical process flows, Continuous monitoring and troubleshooting of the IT network infrastructure and services, Managing network related projects",
+				"category": "Manufactoring",
+				"type_job": "Part Time",
+				"min_salary": 2500,
+				"max_salary": 4500,
+				"requirements": "Degree in IT related fields or equivalent professional experience, Advanced knowledge of modern enterprise network architectures, technology and infrastructure in data centers and cloud ecosystems, Experience of software defined networking (SDN), network security and firewall concepts, Experienced in automation, infrastructure as code (IaC), cloud-related common programming, scripting and code development",
+				"optional_requirements": "English language, Degree in IT related fields or equivalent professional experience, Advanced knowledge of modern enterprise network architectures, technology and infrastructure in data centers and cloud ecosystems, Experience of software defined networking (SDN), network security and firewall concepts, Experienced in automation, infrastructure as code (IaC), cloud-related common programming, scripting and code development",
+				"state": 0
+			}
+		]
+	}
 ]
