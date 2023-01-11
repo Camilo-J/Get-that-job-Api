@@ -8,7 +8,8 @@
       "experience": "Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Soluciones Orión, Integrador de soluciones, devops, programmer in c#",
       "education": "Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal",
       "email": "cesar@gmail.com",
-			"password": "123456"
+			"password": "123456",
+			"password_confirmation": "123456"
     },
     {
 			"name": "Elisabeth",
@@ -19,7 +20,8 @@
 			"experience": "Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist, Customer Engineer for Application Modernization, IBM Public Cloud Technical Specialist ",
 			"education": "Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal",
 			"email": "elisabeth@gmail.com",
-			"password": "123456"
+			"password": "123456",
+			"password_confirmation": "123456"
     },
     {
 			"name": "Marco",
@@ -30,6 +32,7 @@
 			"experience": "Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#, Soluciones Orión, Integrador de soluciones, devops, programmer in c#",
 			"education": "Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal, Universidad Nacional Federico Villarreal",
 			"email": "marco@gmail.com",
-			"password": "123456"
+			"password": "123456",
+			"password_confirmation": "123456"
     }
 ]

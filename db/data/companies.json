@@ -5,6 +5,7 @@
 		"email": "rrhh@nintendo.com",
 		"website": "https:/www.nintendo.com",
 		"password": "123456",
+		"password_confirmation": "123456",
 		"jobs": [
 			{
 				"name": "European Legal Advisor or European Legal Professional",
@@ -47,6 +48,7 @@
 		"email": "rrhh@nintendoead.com",
 		"website": "https:/www.nintendoead.com",
 		"password": "123456",
+		"password_confirmation": "123456",
 		"jobs": [
 			{
 				"name": "HR Services Specialist",
@@ -89,6 +91,7 @@
 		"email": "rrhh@sony.com",
 		"website": "https:/www.sony.com",
 		"password": "123456",
+		"password_confirmation": "123456",
 		"jobs": [
 			{
 				"name": "MANAGER, SALES PLANNING & OPERATIONS",
@@ -120,6 +123,49 @@
 				"min_salary": 2500,
 				"max_salary": 4500,
 				"requirements": "Degree in IT related fields or equivalent professional experience, Advanced knowledge of modern enterprise network architectures, technology and infrastructure in data centers and cloud ecosystems, Experience of software defined networking (SDN), network security and firewall concepts, Experienced in automation, infrastructure as code (IaC), cloud-related common programming, scripting and code development",
+				"optional_requirements": "English language, Degree in IT related fields or equivalent professional experience, Advanced knowledge of modern enterprise network architectures, technology and infrastructure in data centers and cloud ecosystems, Experience of software defined networking (SDN), network security and firewall concepts, Experienced in automation, infrastructure as code (IaC), cloud-related common programming, scripting and code development",
+				"state": 0
+			}
+		]
+	},
+	{
+		"name": "SIE Santa Monica Studio",
+		"description": "Established in 1999, Santa Monica Studio became renowned for excellence in the action/adventure genre with the worldwide award-winning success of the 2005 release, God of War, and its subsequent sequels. Our most recent God of War (2018) became one of the fastest selling PlayStation 1st-party games of all-time, and has since won over 190 Game of the Year awards including DICE, BAFTA, The Game Awards, Game Developers Choice Awards, IGN, Game Informer, EW, and Variety.",
+		"email": "rrhh@sie.com",
+		"website": "https:/www.sie.com",
+		"password": "123456",
+		"password_confirmation": "123456",
+		"jobs": [
+			{
+				"name": "Sr Character Concept Artist",
+				"description": "Santa Monica Studio is seeking an experienced concept artist for the development of a new unannounced title! As a Senior Character Concept Artist, you would help us visualize dynamic and believable characters that set the bar for creativity and complexity on the PlayStation console. Do you want to contribute to the artistic vision, working with art teams to establish the tone of the game, and bring it to life? As a member of the world-class character team, you must effectively collaborate with the Art Director, Game Director, and Art Leads to develop concepts for our cast that are visually spectacular and engaging while also working with a wide range of development team members to ensure technical feasibility. Help us craft unique visuals that define our industry!",
+				"category": "Art",
+				"type_job": "Full Time",
+				"min_salary": 3000,
+				"max_salary": 4800,
+				"requirements": "Design characters, props, production callouts, system interacts, high vision concept art, color scripts, marketing material and other visual guides and tasks as needed to assist the development team \n Combine the goals of game design, art direction, and technological considerations to help build industry defining characters. \n Research and initiate information gathering of pertinent subject matter to your task \n Develop and maintain strong creative and collaborative partnerships across subject areas to help further develop the in-game characters, visual language, and rule sets for fantasy-based worlds. \n Solve complex artistic development issues for artists as well as other team members \n Actively improve your skills and maintain an awareness of industry techniques, tools, evaluate competitive products, learning new software packages and traditional art methods \n Serve as an artistic resource for overall product or as a studio resource. This includes, but is not limited to conducting general research, developing ground breaking techniques, or testing new systems and tools",
+				"optional_requirements": "English language, Education or studies in the field of HR or relevant working experience, Experience in handling HR related administrative tasks, First experiences with recruitment processes, Very good knowledge of MS Office as well as SAP HCM (PA, PB, PT, Efile), Very good German and English skills",
+				"state": 0
+			},
+			{
+				"name": "Sr Environment Concept Artist",
+				"description": "We are looking for a concept artist with a focus on environments to help us visualize imaginative and unique worlds that set the bar for creativity and complexity on the PlayStation console. We are looking for an experienced artist to contribute to the artistic vision, working with art teams to establish the tone of the game, and bring it to life. As a member of the team passionate about environments, you must effectively collaborate with the Art Director, Game Director, and Art Leads to craft worlds that are visually spectacular and cohesive while also working with a wide range of development team members to ensure technical feasibility. Help us craft unique visuals that define our industry!",
+				"category": "Art",
+				"type_job": "Part Time",
+				"min_salary": 3000,
+				"max_salary": 4500,
+				"requirements": "Strong command of foundation art skills (drawing, painting and rendering, material indication, perspective, composition, color theory, design, anatomy and 2d and 3d design techniques) \n Strong design skills with the ability to render realistic believable fantasy based props, architecture, and natural landscapes using contemporary industry standard tools and techniques. \n Strong ideation, brainstorming and documentation skills. \n Proficiency in Photoshop with an emphasis on drawing, painting and image making. Ability to block out ideas in 3D as well as 2D depending on the needs of the task. \n Strong time management and prioritization skills. This entails collaborating with the Production group to coordinate task lists to ensure assignments are progressing well according to schedules, objectives, and overall project goals.",
+				"optional_requirements": "English language, Degree-level education in Business, Business Informatics, Statistics or Mathematics, Interest in digital business analyses (e.g. digital sales, subscription services, CRM, consumer journey), Profound knowledge of Excel and SQL, Experience with reporting and BI tools e.g. Tableau, Experience with databases (e.g. AWS, BigQuery) and Google Analytics would be beneficial",
+				"state": 0
+			},
+			{
+				"name": "Principal Rendering Programmer",
+				"description": "You’re into tech, really all tech, but graphics and low-level stuff are your bread and butter. Optimizations – definitely, both CPU and GPU. Graphics systems – of course: whatever the artists need to make the highest quality visuals. And part of you thinks like they do, which is great, since you will be collaborating with them often.",
+				"category": "Programmig",
+				"type_job": "Full Time",
+				"min_salary": 2500,
+				"max_salary": 4500,
+				"requirements": "B.Sc. degree in computer science or equivalent experience \n Minimum ten years professional programming experience \n Expert in modern rendering techniques and engine-related issues \n Expertise in C and C++ \n Strong programming generalist with solid code architecture skills \n Proficient in linear algebra \n Enthusiasm and initiative \n Excellent spoken and written communication \n Able and motivated to work with other team members",
 				"optional_requirements": "English language, Degree in IT related fields or equivalent professional experience, Advanced knowledge of modern enterprise network architectures, technology and infrastructure in data centers and cloud ecosystems, Experience of software defined networking (SDN), network security and firewall concepts, Experienced in automation, infrastructure as code (IaC), cloud-related common programming, scripting and code development",
 				"state": 0
 			}
