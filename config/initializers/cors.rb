@@ -5,12 +5,12 @@
 
 # Read more: https://github.com/cyu/rack-cors
 
-Rails.application.config.middleware.use Rack::Cors do
+Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
     origins '*'
     resource '*',
              headers: :any,
-             expose: %w[expiry token-type Authorization],
-             methods: %i[get post options delete put patch]
+             expose: %w[access-token expiry token-type Authorization],
+             methods: %i[get post options delete put patch head]
   end
 end
