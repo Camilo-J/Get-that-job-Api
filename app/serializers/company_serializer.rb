@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class CompanySerializer < ActiveModel::Serializer
-  attributes :id, :email, :description, :website, :name, :profile
+  attributes :id, :email, :description, :website, :name # , :profile
 end
 
 def profile_image
