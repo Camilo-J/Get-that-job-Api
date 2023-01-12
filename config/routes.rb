@@ -25,6 +25,9 @@ Rails.application.routes.draw do  # Define your application routes per the DSL i
       end
 
       resources :applications_jobs
+
+      get '/profile', to: 'users#show'
+      get '/profile_company', to: 'companies#show'
     end
   end
 end
