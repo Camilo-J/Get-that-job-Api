@@ -11,6 +11,6 @@ class Company < ApplicationRecord
   validates :website, format: URI::DEFAULT_PARSER.make_regexp(%w[http https]), allow_blank: true
   # Associations
   has_many :followings, as: :followable, dependent: :destroy
-  has_many :jobs
+  has_many :jobs, dependent: :destroy
   has_one_attached :profile
 end

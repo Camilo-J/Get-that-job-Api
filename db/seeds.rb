@@ -37,14 +37,13 @@
 # following_company = Following.new(user_id: user.id)
 # following_company.followable = company
 
+require 'json'
 
-require "json"
-
-users_data = JSON.parse(File.read("db/data/users.json"))
-companies_data = JSON.parse(File.read("db/data/companies.json"))
+users_data = JSON.parse(File.read('db/data/users.json'))
+companies_data = JSON.parse(File.read('db/data/companies.json'))
 # jobs_data = JSON.parse(File.read("db/data/jobs.json"))
 
-puts "Start seeding"
+puts 'Start seeding'
 User.destroy_all
 Company.destroy_all
 Job.destroy_all
@@ -57,14 +56,14 @@ Job.destroy_all
 #     user.password = "qwerty"
 #     user.password_confirmation = "qwerty"
 #   end
-  
-puts "Seeding users"
+
+puts 'Seeding users'
 users_data.each do |professional_data|
-	new_professional = User.new(professional_data)
-	puts "Professional not created. Errors: #{new_professional.errors.full_messages}" unless new_professional.save
+  new_professional = User.new(professional_data)
+  puts "Professional not created. Errors: #{new_professional.errors.full_messages}" unless new_professional.save
 end
 
-puts "Seeding companies and jobs"
+puts 'Seeding companies and jobs'
 # companies_data.each do |company_data|
 # 	new_company = Company.new(company_data)
 # 	puts "Company not created. Errors: #{new_company.errors.full_messages}" unless new_company.save
@@ -72,28 +71,28 @@ puts "Seeding companies and jobs"
 
 # main_companies_data = companies_data.select {|company| company["jobs"].nil? }
 
-companies_data.each do |company|
-	company_data = company.slice("name", "description", "email", "website", "password")
-	new_company = Company.new(company_data)
-	puts "Company not created. Errors: #{new_company.errors.full_messages}" unless new_company.save
+companies_data.each_with_index do |company, _index|
+  company_data = company.slice('name', 'description', 'email', 'website', 'password')
+  new_company = Company.new(company_data)
 
-	company["jobs"].each do |job_data|
-		# job = Company.find_by(name: involved_company_data["name"])
+  # new_company.profile.attach(io: File.open('db/data/images/Rectangle1.png'), filename: 'Rectangle1.png')
+  puts "Company not created. Errors: #{new_company.errors.full_messages}" unless new_company.save
 
-		new_job = Job.new(company_id: new_company.id,
-											name: job_data["name"], 
-											description: job_data["description"], 
-											category: job_data["category"],
-											type_job: job_data["type_job"],
-											min_salary: job_data["min_salary"],
-											max_salary: job_data["max_salary"],
-											requirements: job_data["requirements"],
-											optional_requirements: job_data["optional_requirements"],
-											state: job_data["state"],
-										)
-		puts "Job not created. Errors: #{new_job.errors.full_messages}" unless new_job.save
-	end
+  company['jobs'].each do |job_data|
+    # job = Company.find_by(name: involved_company_data["name"])
+
+    new_job = Job.new(company_id: new_company.id,
+                      name: job_data['name'],
+                      description: job_data['description'],
+                      category: job_data['category'],
+                      type_job: job_data['type_job'],
+                      min_salary: job_data['min_salary'],
+                      max_salary: job_data['max_salary'],
+                      requirements: job_data['requirements'],
+                      optional_requirements: job_data['optional_requirements'],
+                      state: job_data['state'])
+    puts "Job not created. Errors: #{new_job.errors.full_messages}" unless new_job.save
+  end
 end
 
-puts "End seeding"
-   
+puts 'End seeding'
