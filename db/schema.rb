@@ -45,11 +45,15 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_11_133036) do
   create_table "applications_jobs", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "job_id", null: false
+    t.bigint "physician_id"
+    t.bigint "patient_id"
     t.integer "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "interest"
     t.index ["job_id"], name: "index_applications_jobs_on_job_id"
+    t.index ["patient_id"], name: "index_applications_jobs_on_patient_id"
+    t.index ["physician_id"], name: "index_applications_jobs_on_physician_id"
     t.index ["user_id"], name: "index_applications_jobs_on_user_id"
   end
 

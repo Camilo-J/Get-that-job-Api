@@ -12,6 +12,8 @@ class User < ApplicationRecord
   validates :education, length: { in: 100..2000 }, allow_blank: true
   validates :linkedin, format: URI::DEFAULT_PARSER.make_regexp(%w[http https]), allow_blank: true
   # Associations
+  has_many :jobs, through: :applications_jobs
+
   has_many :followings, dependent: :destroy
   has_one_attached :curriculum
 end

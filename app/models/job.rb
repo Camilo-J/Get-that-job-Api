@@ -11,6 +11,8 @@ class Job < ApplicationRecord
   # Associations
   has_many :followings, as: :followable, dependent: :destroy
   belongs_to :company
+  has_many :applications_jobs
+  has_many :users, through: :applications_jobs
 
   enum state: { open: 0, closed: 1 }
 end
