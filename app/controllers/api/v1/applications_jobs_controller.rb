@@ -39,7 +39,7 @@ module Api
       private
 
       def apply_params
-        params.require(:applications_job).permit(:user_id, :job_id)
+        params.require(:applications_job).permit(:user_id, :job_id, :state, :interest)
       end
     end
   end

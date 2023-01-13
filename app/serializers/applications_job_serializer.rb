@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class ApplicationsJobSerializer < ActiveModel::Serializer
-  attributes :id, :interest, :job_id, :user_id, :status, :created_at, :updated_at, :user_data
+  attributes :id, :interest, :job_id, :user_id, :state, :created_at, :updated_at, :user_data
 end
 
 def user_data

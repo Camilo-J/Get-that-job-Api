@@ -3,5 +3,5 @@ class ApplicationsJob < ApplicationRecord
   belongs_to :user
   belongs_to :job
 
-  enum status: { review: 0, progress: 1, finished: 2, decline: 3 }
+  enum state: { review: 0, progress: 1, finished: 2, declined: 3 }
 end
