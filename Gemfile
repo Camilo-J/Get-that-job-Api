@@ -48,3 +48,5 @@ end
 gem 'active_model_serializers'
 gem 'devise_token_auth'
 gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
+
+gem "cloudinary", "~> 1.25"
