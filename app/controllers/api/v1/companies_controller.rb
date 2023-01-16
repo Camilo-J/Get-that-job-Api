@@ -2,8 +2,9 @@ module Api
   module V1
     class CompaniesController < ApplicationController
       skip_before_action :authenticate_api_v1_user!
+      skip_before_action :authenticate_api_v1_company!,  only: %i[show]
       def show
-        company = Company.find(current_api_v1_company.id)
+        company = Company.find(current_api_v1_company&.id || params[:id])
         render json: company
       end
 
@@ -19,7 +20,7 @@ module Api
       end
 
       def job_params
-        params.permit(:description, :name, :website, :email, :profile)
+        params.permit(:description, :name, :website, :email, :profile,:id)
       end
     end
   end
