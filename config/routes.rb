@@ -28,6 +28,7 @@ Rails.application.routes.draw do  # Define your application routes per the DSL i
 
       get '/profile', to: 'users#show'
       get '/profile_company', to: 'companies#show'
+      get '/profile_company/:id', to: 'companies#show'
       patch '/profile_company', to: 'companies#update'
     end
   end

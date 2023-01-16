@@ -15,10 +15,10 @@ module Api
       def create
         if params[:company_id] # 1
           company = Company.find(params[:company_id])
-          following = company.followings.new(following_params)
+          following = company.followings.new(user_id: current_api_v1_user.id)
         else
           job = Job.find(params[:job_id])
-          following = job.followings.new(following_params)
+          following = job.followings.new(user_id: current_api_v1_user.id)
         end
 
         if following.save
