@@ -1,0 +1,9 @@
+development:
+  cloud_name: <%= Rails.application.credentials[:cloud_name] %>
+  api_key: <%= Rails.application.credentials[:api_key] %>
+  api_secret: <%= Rails.application.credentials[:api_secret] %>
+
+production:
+  cloud_name: <%= Rails.application.credentials[:cloud_name] %>
+  api_key: <%= Rails.application.credentials[:api_key] %>
+  api_secret: <%= Rails.application.credentials[:api_secret] %>

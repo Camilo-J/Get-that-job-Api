@@ -32,3 +32,10 @@ local:
 #   service: Mirror
 #   primary: local
 #   mirrors: [ amazon, google, microsoft ]
+cloudinary:
+  service: Cloudinary
+  cloud_name: <%= Rails.application.credentials[:cloud_name] %>
+  api_key: <%= Rails.application.credentials[:api_key] %>
+  api_secret: <%= Rails.application.credentials[:api_secret] %>
+
+  # Any other settings you want, to be sent on all requests, can be included here as well.
