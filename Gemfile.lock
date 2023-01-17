@@ -170,6 +170,10 @@ GEM
     omniauth-oauth2 (1.8.0)
       oauth2 (>= 1.4, < 3)
       omniauth (~> 2.0)
+    open-uri (0.3.0)
+      stringio
+      time
+      uri
     orm_adapter (0.5.0)
     pg (1.4.5)
     puma (5.6.5)
@@ -223,13 +227,17 @@ GEM
     snaky_hash (2.0.1)
       hashie
       version_gem (~> 1.1, >= 1.1.1)
+    stringio (3.0.4)
     thor (1.2.1)
+    time (0.2.1)
+      date
     timeout (0.3.1)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
+    uri (0.12.0)
     version_gem (1.1.1)
     warden (1.2.9)
       rack (>= 2.0.9)
@@ -248,6 +256,7 @@ DEPENDENCIES
   debug
   devise_token_auth
   omniauth-github!
+  open-uri (~> 0.3.0)
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors
