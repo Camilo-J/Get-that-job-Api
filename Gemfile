@@ -50,3 +50,5 @@ gem 'devise_token_auth'
 gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
 
 gem "cloudinary", "~> 1.25"
+
+gem "open-uri", "~> 0.3.0"

@@ -24,17 +24,16 @@ class Job < ApplicationRecord
   def close_applications
     # puts "State de job" + state
     # puts "Estamos cerrando applications de este job"
-    job = Job.find_by(name: name)
+    job = Job.find_by(name:)
     applications = ApplicationsJob.where(job_id: job.id)
     # puts "antes"
-    if job.state == "closed"
+    if job.state == 'closed'
       applications.all.each do |application|
-        application.state = "finished";
+        application.state = 'finished'
         application.save
         # puts "cerrado 1 application"
       end
     end
     # puts "depsues"
-
   end
 end
