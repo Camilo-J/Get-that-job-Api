@@ -15,4 +15,26 @@ class Job < ApplicationRecord
   has_many :users, through: :applications_jobs
 
   enum state: { open: 0, closed: 1 }
+
+  # Callbacks
+  after_update :close_applications
+
+  private
+
+  def close_applications
+    # puts "State de job" + state
+    # puts "Estamos cerrando applications de este job"
+    job = Job.find_by(name: name)
+    applications = ApplicationsJob.where(job_id: job.id)
+    # puts "antes"
+    if job.state == "closed"
+      applications.all.each do |application|
+        application.state = "finished";
+        application.save
+        # puts "cerrado 1 application"
+      end
+    end
+    # puts "depsues"
+
+  end
 end
