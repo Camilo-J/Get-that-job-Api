@@ -9,7 +9,9 @@ def company_data
   { name: company.name,
     email: company.email,
     website: company.website,
-    profile: company.profile&.url }
+    profile: company.profile&.url,
+    description: company.description
+    }
 end
 
 def applications
