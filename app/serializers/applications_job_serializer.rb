@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 class ApplicationsJobSerializer < ActiveModel::Serializer
-  attributes :id, :interest, :job_id, :user_id, :state, :created_at, :updated_at, :user_data, :job_data,:cv_url,:user_experience
+  attributes :id, :interest, :job_id, :user_id, :state, :created_at, :updated_at, :user_data, :job_data, :cv_url,
+             :user_experience
 end
 
 def user_data
@@ -23,10 +24,11 @@ def job_data
     max_salary: job.max_salary,
     created_at: job.created_at,
     updated_at: job.updated_at,
-    company_name: job.company.name
+    company_name: job.company.name,
+    company_profile: job.company.profile&.url
   }
 end
 
 def cv_url
-user_cv.url
+  user_cv.url
 end
