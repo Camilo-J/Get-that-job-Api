@@ -2,7 +2,7 @@
 
 class JobSerializer < ActiveModel::Serializer
   attributes :id, :name, :description, :category, :min_salary, :max_salary, :requirements, :optional_requirements,
-             :state, :created_at, :updated_at, :company_data, :applications, :users, :followings,:type_job
+             :state, :created_at, :updated_at, :company_data, :applications, :users, :followings, :type_job
 end
 
 def company_data
@@ -10,8 +10,7 @@ def company_data
     email: company.email,
     website: company.website,
     profile: company.profile&.url,
-    description: company.description
-    }
+    description: company.description }
 end
 
 def applications
@@ -24,6 +23,7 @@ def applications
       state: app.state,
       created_at: app.created_at,
       updated_at: app.updated_at,
+      user_cv: app.user_cv.url,
       user_data: { name: app.user.name,
                    experience: app.user.experience,
                    email: app.user.email,
